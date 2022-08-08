@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/FunderTalk/static/css/main.95184ebf.css",
-    "main.js": "/FunderTalk/static/js/main.0d2f948c.js",
+    "main.js": "/FunderTalk/static/js/main.ca712c59.js",
     "index.html": "/FunderTalk/index.html",
     "main.95184ebf.css.map": "/FunderTalk/static/css/main.95184ebf.css.map",
-    "main.0d2f948c.js.map": "/FunderTalk/static/js/main.0d2f948c.js.map"
+    "main.ca712c59.js.map": "/FunderTalk/static/js/main.ca712c59.js.map"
   },
   "entrypoints": [
     "static/css/main.95184ebf.css",
-    "static/js/main.0d2f948c.js"
+    "static/js/main.ca712c59.js"
   ]
 }
