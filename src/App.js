@@ -82,10 +82,10 @@ function App() {
         <div className="app-main-a-routes">
           <Routes>
             <Route path="*" element={<RouteNotFound />} />
-            <Route path="/" element={<News />} />
-            <Route path="/PostsFeed" element={<PostsFeed searchReceived={searchReceived} todaysDate={todaysDate} curseWords={curseWords} changeAlert={changeAlert} changeReload={changeReload} userInfoReceived={userInfoReceived} postsRender={postsRender} />} />
-            <Route path="/JobsFeed" element={<JobsFeed />} />
-            <Route path="/UserSettings" element={<UserSettings curseWords={curseWords} changeAlert={changeAlert} changeReload={changeReload} userInfoSendInterference={userInfoSendInterference} userInfoReceived={userInfoReceived} />} />
+            <Route path="/FunderTalk/" element={<News />} />
+            <Route path="/FunderTalk/PostsFeed" element={<PostsFeed searchReceived={searchReceived} todaysDate={todaysDate} curseWords={curseWords} changeAlert={changeAlert} changeReload={changeReload} userInfoReceived={userInfoReceived} postsRender={postsRender} />} />
+            <Route path="/FunderTalk/JobsFeed" element={<JobsFeed />} />
+            <Route path="/FunderTalk/UserSettings" element={<UserSettings curseWords={curseWords} changeAlert={changeAlert} changeReload={changeReload} userInfoSendInterference={userInfoSendInterference} userInfoReceived={userInfoReceived} />} />
           </Routes>
         </div>
 
