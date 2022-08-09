@@ -63,6 +63,14 @@ body {
   box-shadow: 10px 15px 30px 5px rgba(35, 36, 37, 0.4);
 }
 
+@media only screen and (max-width: 950px) {
+  .alert-box {
+    width: 75%;
+    margin-left: 12.5%;
+    height: 10vh;
+  }
+}
+
 .alert-box-a {
   width: 10%;
   height: 7.5vh;
@@ -71,6 +79,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .alert-box-a {
+    height: 10vh;
+  }
 }
 
 .alert-box-a span {
@@ -85,6 +99,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .alert-box-b {
+    height: 10vh;
+  }
 }
 
 .alert-box-b h1 {
@@ -105,6 +125,12 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+@media only screen and (max-width: 950px) {
+  .alert-box-c {
+    height: 12.5vh;
+  }
 }
 
 /* App Main */
